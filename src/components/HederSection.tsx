@@ -25,12 +25,12 @@ function HederSection() {
           </p>
           <div>
             <button
-              className="text-black hover:text-white bg-white hover:bg-blue-700  rounded-full w-full sm:w-fit px-4 py-4 shadow-md shadow-blue-700 hover:shadow-white mr-4"
+              className="text-black hover:text-white bg-white hover:bg-blue-700  rounded-full w-full sm:w-fit px-4 py-4 shadow-xl shadow-blue-700 hover:shadow-white mr-4"
             >
               Hire Me
             </button>
             <button
-              className="text-black hover:text-white bg-white hover:bg-blue-700 rounded-full w-full sm:w-fit px-4 py-4 shadow-md shadow-blue-700 hover:shadow-white mt-4"
+              className="text-black hover:text-white bg-white hover:bg-blue-700 rounded-full w-full sm:w-fit px-4 py-4 shadow-xl shadow-blue-700 hover:shadow-white mt-4"
             >
               Download CV
             </button>
