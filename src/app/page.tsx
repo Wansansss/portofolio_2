@@ -9,6 +9,7 @@ export default function Home() {
     <div className='container mt-32 mx-auto py-4 px-12'>
     <HeaderSection />
     </div>
+   
     
     </main>
   )
