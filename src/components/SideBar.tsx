@@ -74,7 +74,7 @@ function SideBar() {
         <Link href="mailto:ridhwanardiansyah@gmail.com" className="flex  hover:text-pink-500 cursor-pointer text-white transition-all duration-200 ease-out">
         <Envelope size={28} />
         </Link>
-        <Link href="wa.me/6285710093376" className="flex  hover:text-pink-500 cursor-pointer text-white transition-all duration-200 ease-out">
+        <Link href="https://wa.me/6285710093376" className="flex  hover:text-pink-500 cursor-pointer text-white transition-all duration-200 ease-out">
         <WhatsappLogo size={28} />
         </Link>
         
