@@ -36,42 +36,42 @@ function SideBar() {
           <h3 className=" justify-center text-center mb-10 text-md text-white">Ridhwan Ardiyansyah</h3>
           <div className="flex hover:text-pink-500 cursor-pointer text-white transition-all duration-200 ease-out">
             <House size={26} weight="fill" />
-            <Link href={"#Home"}>
+            <Link href={"/"}>
               Home
             </Link>
           </div>
           <div className="flex hover:text-pink-500 cursor-pointer text-white transition-all duration-200 ease-out">
             <IdentificationCard size={26} weight="fill" />
-            <Link href={"#Home"}>
+            <Link href={"#about"}>
               About Me
             </Link>
           </div>
           <div className="flex hover:text-pink-500 cursor-pointer text-white transition-all duration-200 ease-out">
             <ReadCvLogo size={26} weight="fill" />
-            <Link href={"#Home"}>
+            <Link href={"#resume"}>
               Resume
             </Link>
           </div>
           <div className="flex hover:text-pink-500 cursor-pointer text-white transition-all duration-200 ease-out">
           <CubeTransparent size={26} weight="fill" />
-            <Link href={"#Home"}>
-              Works
+            <Link href={"#project"}>
+              Projects
             </Link>
           </div>
           <div className="flex hover:text-pink-500 cursor-pointer text-white transition-all duration-200 ease-out">
           <AddressBook size={26} weight="fill" />
-            <Link href={"#Home"}>
+            <Link href={"#contact"}>
               Contact Me
             </Link>
           </div>
           <div className="flex flex-row justify-center gap-2 mt-20 ">
-          <Link href="" className="flex  hover:text-pink-500 cursor-pointer text-white transition-all duration-200 ease-out" >
+          <Link href="https://www.instagram.com/rdwnardynsyh" className="flex  hover:text-pink-500 cursor-pointer text-white transition-all duration-200 ease-out" >
         <InstagramLogo size={26} />
         </Link>
         <Link href="" className="flex  hover:text-pink-500 cursor-pointer text-white transition-all duration-200 ease-out">
         <LinkedinLogo size={26} />
         </Link>
-        <Link href="" className="flex  hover:text-pink-500 cursor-pointer text-white transition-all duration-200 ease-out">
+        <Link href="mailto:ridhwanardiansyah@gmail.com" className="flex  hover:text-pink-500 cursor-pointer text-white transition-all duration-200 ease-out">
         <Envelope size={28} />
         </Link>
         
