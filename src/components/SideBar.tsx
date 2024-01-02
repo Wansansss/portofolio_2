@@ -1,6 +1,6 @@
 "use client"
 import { Bars3Icon } from '@heroicons/react/16/solid'
-import { AddressBook, CubeTransparent, Envelope, House, IdentificationCard, InstagramLogo, LinkedinLogo, ReadCvLogo, X } from '@phosphor-icons/react'
+import { AddressBook, CubeTransparent, Envelope, House, IdentificationCard, InstagramLogo, LinkedinLogo, ReadCvLogo, WhatsappLogo, X } from '@phosphor-icons/react'
 import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -73,6 +73,9 @@ function SideBar() {
         </Link>
         <Link href="mailto:ridhwanardiansyah@gmail.com" className="flex  hover:text-pink-500 cursor-pointer text-white transition-all duration-200 ease-out">
         <Envelope size={28} />
+        </Link>
+        <Link href="wa.me/6285710093376" className="flex  hover:text-pink-500 cursor-pointer text-white transition-all duration-200 ease-out">
+        <WhatsappLogo size={28} />
         </Link>
         
           </div>
