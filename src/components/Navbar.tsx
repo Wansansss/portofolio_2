@@ -28,11 +28,6 @@ const navLinks = [
 ]
 
 function Navbar() {
-    const [menuOpen, setMenuOpen] = useState(false) 
-
-    const handleNav = () => {
-        setMenuOpen(!menuOpen)
-    }
   return (
     <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90">
       <div className="flex flex-wrap items-center justify-between mx-auto p-4">
