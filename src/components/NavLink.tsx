@@ -1,5 +1,3 @@
-import { Bars2Icon } from "@heroicons/react/16/solid";
-import { StarIcon } from "@heroicons/react/16/solid";
 import Link from "next/link";
 
 type Props = {
