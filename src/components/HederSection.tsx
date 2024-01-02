@@ -14,11 +14,11 @@ function HederSection() {
             <div className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-emerald-700">Hello, I'm {" "}</div>
             <Typewriter words={name} loop={false} cursor />
           </h1>
-          <h1 className="font-extrabold text-white mb-4 text-xl lg:text-2xl">
+          <h1 className="font-extrabold text-white m-4 text-xl lg:text-2xl">
             I am Student {""}
             <Typewriter words={message} loop={false} cursor />
           </h1>
-          <p className="text-white text-base sm:text-lg mb-6 lg:text-xl">
+          <p className="text-white text-base sm:text-lg m-6 lg:text-xl">
             I design and develop services for customers of all sizes,
             specializing in creating stylish, modern websites, web services and
             online stores.
@@ -37,7 +37,7 @@ function HederSection() {
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-10 lg:mt-0">
-          <div className="rounded-full bg-gray-600/70 shadow-blue-950 shadow-xl ml-8 w-[350px] h-[350px] lg:w-[400] lg:[400] relative">
+          <div className="rounded-full bg-gray-600/70 shadow-blue-950 shadow-xl w-[350px] h-[350px] lg:w-[400] lg:[400] relative">
             <Image
               src="/img/formal.png"
               alt=""
