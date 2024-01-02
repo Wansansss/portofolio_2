@@ -1,11 +1,7 @@
 "use client"
 
 import Link from "next/link";
-import Image from "next/image";
-import React, { useState } from "react";
 import NavLink from "./NavLink";
-import { Bars3Icon} from "@heroicons/react/16/solid";
-import { AddressBook, CubeTransparent, Envelope, House, IdentificationCard, InstagramLogo, LinkedinLogo, ReadCvLogo, X } from "@phosphor-icons/react";
 import SideBar from "./SideBar";
 
 const navLinks = [
