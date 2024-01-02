@@ -37,7 +37,7 @@ function HederSection() {
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-10 lg:mt-0">
-          <div className="rounded-full bg-gray-600/70 shadow-blue-950 shadow-xl w-[350px] h-[350px] lg:w-[400] lg:[400] relative">
+          <div className="rounded-full bg-gray-600/70 shadow-blue-950 shadow-xl pl-4 w-[350px] h-[350px] lg:w-[400] lg:[400] relative">
             <Image
               src="/img/formal.png"
               alt=""
