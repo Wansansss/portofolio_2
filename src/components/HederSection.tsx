@@ -4,6 +4,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
 
+
 function HederSection() {
   const [message] = useState(["Universitas", "Tarumanagara"]);
   const [name] = useState(["Ridhwan Ardiyansyah"])
@@ -31,7 +32,7 @@ function HederSection() {
               Hire Me
             </button>
             <Link
-           href={'public/img/my_cv.pdf'}  target="_blank"  rel="noopener noreferrer" locale={false} download className="text-black hover:text-white bg-white hover:bg-blue-700 rounded-full w-full sm:w-fit px-4 py-4 shadow-xl shadow-blue-700 hover:shadow-white mt-4"
+           href={'/img/my_cv.pdf'}  target="_blank"  rel="noopener noreferrer" locale={false} download className="text-black hover:text-white bg-white hover:bg-blue-700 rounded-full w-full sm:w-fit px-4 py-4 shadow-xl shadow-blue-700 hover:shadow-white mt-4"
             >
               Download CV
             </Link>
