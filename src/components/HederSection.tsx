@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
 
@@ -29,11 +30,11 @@ function HederSection() {
             >
               Hire Me
             </button>
-            <button
-              className="text-black hover:text-white bg-white hover:bg-blue-700 rounded-full w-full sm:w-fit px-4 py-4 shadow-xl shadow-blue-700 hover:shadow-white mt-4"
+            <Link
+           href={'public/img/my_cv.pdf'}  target="_blank"  rel="noopener noreferrer" locale={false} download className="text-black hover:text-white bg-white hover:bg-blue-700 rounded-full w-full sm:w-fit px-4 py-4 shadow-xl shadow-blue-700 hover:shadow-white mt-4"
             >
               Download CV
-            </button>
+            </Link>
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-10 lg:mt-0">
