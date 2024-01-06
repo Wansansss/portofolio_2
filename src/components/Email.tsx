@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import GithubIcon from "../../public/github-icon.svg";
-import LinkedinIcon from "../../public/linkedin-icon.svg"
+import InstagramIcon from "../../public/instagram.svg"
 
 function Email() {
     const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -57,11 +57,11 @@ function Email() {
             try my best to get back to you!
           </p>
           <div className="socials flex flex-row gap-2">
-            <Link href="github.com">
+            <Link href="https://github.com/Wansansss">
               <Image src={GithubIcon} alt="Github Icon" />
             </Link>
-            <Link href="linkedin.com">
-              <Image src={LinkedinIcon} alt="Linkedin Icon" />
+            <Link href="https://www.instagram.com/rdwnardynsyh" className="text-white">
+              <Image src={InstagramIcon} alt="instagram" />
             </Link>
           </div>
         </div>
