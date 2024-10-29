@@ -40,7 +40,7 @@ function HederSection() {
             </Link>
 
             <Link
-              href={"/img/my_cv.pdf"}
+              href={"/img/CV_Ridhwan.pdf"}
               target="_blank"
               rel="noopener noreferrer"
               locale={false}
