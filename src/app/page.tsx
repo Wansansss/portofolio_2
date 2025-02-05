@@ -4,7 +4,7 @@ import About from '@/components/AboutSection'
 import Projects from '@/components/Projects'
 import Email from "@/components/Email"
 import Footer from "@/components/Footer"
-import AchievementsSection from "@/components/AchievementsSection"
+// import AchievementsSection from "@/components/AchievementsSection"
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       <Navbar />
     <div className='container mt-32 mx-auto py-4 px-12'>
     <HeaderSection />
-    <AchievementsSection />
+    {/* <AchievementsSection /> */}
     <About />
     <Projects/>
     <Email/>
