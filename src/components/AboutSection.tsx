@@ -14,9 +14,11 @@ const TAB_DATA = [
             <li>Express</li>
             <li>Node.js</li>
             <li>PostgreSQL</li>
-            <li>Sequelize</li>
             <li>JavaScript</li>
             <li>React</li>
+            <li>Java</li>
+            <li>HTML</li>
+            <li>CSS</li>
             <li>TypeScript</li>
         </ul>
         ),
@@ -26,7 +28,6 @@ const TAB_DATA = [
         id: "education",
         content: (
         <ul className="list-disc pl-2">
-            <li>Fullstack Academy of Code</li>
             <li>University Tarumanagara</li>
         </ul>
         ),
